@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+Put the scripts after the body, so they would load after the body of the html loaded. not sure if better that way or better to wrap with an event listener for DOM loading?
 ```
 
 ## Deliverable 2
@@ -35,7 +35,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+header.style.color = "red"
 ```
 
 ## Deliverable 3
@@ -57,7 +57,7 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+no
 ```
 
 ## Deliverable 4
